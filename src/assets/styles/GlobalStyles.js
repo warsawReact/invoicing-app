@@ -1,13 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
+import { getColor, getFontFamily, getFontWeight, getMedias } from './utils';
 
-export const GlobalStyle = createGlobalStyle`
-    html {
-        box-sizing: border-box;
-    }
-
-    *, *:before, *:after {
-        box-sizing: inherit;
-        padding: 0;
-        margin: 0;
-    }
+export const GlobalStyles = createGlobalStyle`
+ * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+  }
 `;
+
+export default GlobalStyles;
