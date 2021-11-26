@@ -9,7 +9,8 @@ const fontWeight = {
   regular: '400',
 };
 
-const color = {
+const colors = {
+  // Will be added in the other task
 };
 
 const medias = {
