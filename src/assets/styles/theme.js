@@ -1,5 +1,5 @@
 const fontFamily = {
-  Spartan: 'Spartan',
+  Spartan: 'Spartan, sans-serif;',
 };
 
 const fontWeight = {
