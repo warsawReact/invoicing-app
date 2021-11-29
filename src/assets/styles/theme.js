@@ -10,7 +10,18 @@ const fontWeight = {
 };
 
 const colors = {
-  // Will be added in the other task
+  purple: '#7C5DFA',
+  lightPurple: '#9277FF',
+  darkestBlue: '#1E2139',
+  darkBlue: '#252945',
+  lightBlue: '#7E88C3',
+  lightGray: '#DFE3FA',
+  gray: '#888EB0',
+  darkGray: '#141625',
+  red: '#EC5757',
+  lightRed: '#FF9797',
+  white: '#F8F8FB',
+  black: '#0C0E16',
 };
 
 const medias = {
