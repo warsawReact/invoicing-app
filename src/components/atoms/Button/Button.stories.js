@@ -4,6 +4,7 @@ import Button from './Button';
 export default {
   title: 'Components/Atoms/Button',
   component: Button,
+  argTypes: { onClick: { action: 'handleClick' } },
 };
 
 const Template = (args) => <Button {...args} />;
