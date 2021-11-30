@@ -31,11 +31,10 @@ const medias = {
   desktop: '1200px',
 };
 
-
 const theme = {
   fontFamily,
   fontWeight,
-  color,
+  colors,
   medias,
 };
 
