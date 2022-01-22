@@ -12,7 +12,8 @@ export const StyledButton = styled.button`
   font-family: 'Spartan', sans-serif;
   transition: 0.3s;
 
-  padding: ${({ role }) => (role === 'buttonOne' ? '5px 25px 5px 8px' : '15px 25px')};
+  padding: ${({ role }) =>
+    role === 'buttonOne' ? '5px 25px 5px 8px' : '15px 25px'};
 
   width: ${({ role }) => (role === 'buttonSix' ? '100%' : 'auto')};
 
