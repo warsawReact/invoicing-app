@@ -4,8 +4,7 @@ const fontFamily = {
 
 const fontWeight = {
   extraBold: '900',
-  bold: '800',
-  buttonWeight: '700',
+  bold: '700',
   regular: '400',
 };
 
@@ -30,10 +29,18 @@ const medias = {
   laptop: '1024px',
   desktop: '1200px',
 };
+const fontSize = {
+  xl: '3.2rem',
+  l: '2rem',
+  m: '1.6rem',
+  s: '1.2rem',
+  xs: '1.1rem',
+};
 
 export const theme = {
   fontFamily,
   fontWeight,
+  fontSize,
   colors,
   medias,
 };

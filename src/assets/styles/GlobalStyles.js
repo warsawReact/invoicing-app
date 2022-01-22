@@ -2,7 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 import { getColor, getFontFamily, getFontWeight } from './utils';
 
 export const GlobalStyle = createGlobalStyle`
+ html{
+   font-size:10px;
+  }
  * {
+    box-sizing:border-box;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     font-family: ${getFontFamily('Spartan')};
@@ -10,6 +14,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     -ms-overflow-style: none;
   }
+input{
+  border:none;
+}
+
 
   h1, h2, h3, p, body {
     color: ${getColor('black')};
@@ -28,38 +36,38 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   h1 {
-    font-size: 32px;
-    line-height: 36px;
-    letter-spacing: -1px;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    letter-spacing: -0.1rem;
   }
   
   h2 {
-    font-size: 20px;
-    line-height: 22px;
-    letter-spacing: -0.625px;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.0625rem;
   }
   
   h3 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
   
   h4 {
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: -0.25px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.025rem;
   }
 
   body {
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: -0.25px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.025rem;
   }
 
   p {
     letter-spacing: -0.015em;
-    line-height: 32px;
-    font-size: 16px;
+    line-height: 3.2rem;
+    font-size: 1.6rem;
   }
 `;
 
