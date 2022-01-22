@@ -1,7 +1,7 @@
 export const getColor =
   (colorName) =>
   ({ theme }) =>
-    theme.color[colorName];
+    theme.colors[colorName];
 
 export const getFontFamily =
   (fontName) =>

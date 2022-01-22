@@ -15,9 +15,9 @@ const colors = {
   darkestBlue: '#1E2139',
   darkBlue: '#252945',
   lightBlue: '#7E88C3',
-  lightGray: '#DFE3FA',
-  gray: '#888EB0',
-  darkGray: '#141625',
+  lightGrey: '#DFE3FA',
+  grey: '#888EB0',
+  darkGrey: '#141625',
   red: '#EC5757',
   lightRed: '#FF9797',
   white: '#F8F8FB',
@@ -31,11 +31,9 @@ const medias = {
   desktop: '1200px',
 };
 
-const theme = {
+export const theme = {
   fontFamily,
   fontWeight,
   colors,
   medias,
 };
-
-export default theme;

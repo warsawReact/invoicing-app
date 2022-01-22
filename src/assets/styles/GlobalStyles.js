@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import { getColor, getFontFamily, getFontWeight, getMedias } from './utils';
+import { getColor, getFontFamily, getFontWeight } from './utils';
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
  * {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
@@ -63,4 +63,4 @@ export const GlobalStyles = createGlobalStyle`
   }
 `;
 
-export default GlobalStyles;
+export default GlobalStyle;
