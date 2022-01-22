@@ -5,11 +5,10 @@ import { ReactComponent as PlusIcon } from 'assets/icons/plus-icon.svg';
 
 const Button = (props) => {
   const { role, label } = props;
-
   return (
     <StyledButton {...props}>
       {role === 'buttonOne' && <PlusIcon />}
-      <span>{`${role === 'buttonSix' ? '+' : ''} ${label}`}</span>
+      <span>{`${role === 'buttonSix' ? '+' + label : ''}`}</span>
     </StyledButton>
   );
 };
